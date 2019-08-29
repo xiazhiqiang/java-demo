@@ -7,4 +7,4 @@
 ## 目录
 
 - [一切从Hello world开始](doc/helloworld.md)
-- [增加包名](doc/addPackage.md)
+- [增加包名](doc/package.md)

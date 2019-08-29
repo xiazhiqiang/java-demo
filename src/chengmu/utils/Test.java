@@ -1,6 +1,7 @@
-package chengmu;
+package chengmu.utils;
 
 // 引入工具方法
+import static java.lang.System.*;
 import java.util.Arrays;
 
 public class Test {
@@ -18,7 +19,7 @@ public class Test {
             for (int j = 1; j <= i; j++) {
                 arr[j - 1] = i + "x" + j + '=' + (i*j);
             }
-            System.out.println(Arrays.toString(arr));
+            out.println(Arrays.toString(arr));
             arr = null;
         }
     }
@@ -40,15 +41,8 @@ public class Test {
                     ret += " ";
                 }
             }
-            System.out.println(ret);
+            out.println(ret);
             ret = null;
         }
-    }
-
-    // 入口
-    public static void main(String[] args) {
-        Test t1 = new Test();
-        t1.multiplicationTable(9);
-        t1.isoscelesTriangle(4);
     }
 }
